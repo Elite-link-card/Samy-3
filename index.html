@@ -343,68 +343,8 @@
                                     <i class="fal fa-mobile"></i>
                                     Save contact to phone
                     
-                                </div>
-                            </button>
-                            <form id="send-via-email-form" class="send-via-form" onsubmit="Blinq.handleSendViaEmailFormSubmit(event)">
-                                <fieldset class="input-field">
-                                    <div class="blinq-input" data-contained="false" data-size="normal">
-                                        <label class="input-container">
-                                            <input class="input-el" id="send-via-email-input" name="send-via-email-input" type="email" data-has-value="false" autoComplete="email"/>
-                                            <span class="label-text">Enter your email address
-                                </span>
-                                            <span class="error-text"></span>
-                                        </label>
-                                    </div>
-                                </fieldset>
-                                <button class="blinq-button send-contact" data-variant="primary" data-type="primary" data-size="large" data-loading="false" type="submit" disabled="true">
-                                    <div class="button-content">
-                                        <i class="fas fa-paper-plane"></i>
-                                        <span class="text">Send</span>
-                                    </div>
-                                    <div class="progress"></div>
-                                </button>
-                            </form>
-                            <form id="send-via-sms-form" class="send-via-form" onsubmit="Blinq.handleSendViaSMSFormSubmit(event)">
-                                <fieldset class="input-field">
-                                    <div class="blinq-input" data-contained="false" data-size="normal">
-                                        <button id="select-country-btn" type="button" onclick="Blinq.handleSelectCountryBtnClick(this)">
-                                            <span id="select-country-flag-display" class="fflag fflag-EG ff-sm"></span>
-                                            <span id="select-country-code-display">+20
-                                </span>
-                                        </button>
-                                        <input type="hidden" value=EG id="select-country-input" name="selected-country-input"/>
-                                        <label class="input-container">
-                                            <input class="input-el" id="send-via-sms-input" name="send-via-sms-input" type="tel" data-has-value="false" autoComplete="tel-national"/>
-                                            <span class="label-text">Enter your phone number
-                                </span>
-                                            <span class="error-text"></span>
-                                        </label>
-                                    </div>
-                                </fieldset>
-                                <button class="blinq-button send-contact" data-variant="primary" data-type="primary" data-size="large" data-loading="false" type="submit" disabled="true">
-                                    <div class="button-content">
-                                        <i class="fas fa-paper-plane"></i>
-                                        <span class="text">Send</span>
-                                    </div>
-                                    <div class="progress"></div>
-                                </button>
-                            </form>
-                        </div>
-                        <p class="grid-footer">
-                            <a id="privacy-policy" href="https://blinq.me/legal/privacy-policy" class="link" rel="noreferrer" target="_blank">We don't sell your contact details.
-                </a>
-                            <span id="recommendation-for-brave-and-firefox-on-ios">
-                                We recommend saving contacts using
-                    <button data-variant="text" data-type="primary" class="blinq-button">Email</button>
-                                or
-                    <button data-variant="text" data-type="primary" class="blinq-button">SMS</button>
-                                .
-                
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
+                               
+        
             <div id="select-country-modal" class="modal bottom-sheet fit-to-card">
                 <div class="modal-content">
                     <button class="modal-close-button modal-close">
