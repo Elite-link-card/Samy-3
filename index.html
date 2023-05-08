@@ -202,53 +202,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="save-btn-container">
-                        <button id="save-contact-btn" data-type="primary" data-size="large" data-variant="primary" class="save-btn" onclick="Blinq.handleSaveContactBtnClick(false)">
-                            <span>Save Contact</span>
-                            <div class="progress"></div>
-                        </button>
-                    </div>
-                    <div class="save-btn-sentinel"></div>
-                </div>
-            </div>
-        </div>
-        <div id="is-preview-modal" class="modal preview-modal">
-            <div class="modal-content center-align">
-                <h3 class="modal-header">You can't save the contact while previewing your own card!</h3>
-                <p class="blinq-text-medium">For everyone else clicking this button will save your contact details to their phone and allow them to send their details back to you</p>
-            </div>
-        </div>
-        <div id="save-contact-ios-safari-explainer-modal" class="explainer modal bottom-sheet fit-to-card">
-            <div class="modal-content center-align">
-                <button class="modal-close-button modal-close">
-                    <div class="visually-hidden">Close</div>
-                    <i class="fal fa-times"></i>
-                </button>
-                <span class="modal-header large">
-                    <b>
-                        <span>Scroll down to</span>
-                        <br/>
-                        <span class="highlight">Create New Contact</span>
-                    </b>
-                </span>
-                <div class="modal-scrollable-content">
-                    <div class="ios-save-contact-explainer-animation-container">
-                        <div class="ios-save-contact-explainer-animation"></div>
-                    </div>
-                    <div class="ios-save-contact-bottom-section">
-                        <div class="modal-btn-container ios-explainer-action-btns visible">
-                            <button class="blinq-button" data-variant="primary" data-type="primary" data-size="large" data-loading="false" onclick="Blinq.handleDownloadContactFromExplainerModal()">
-                                <div class="button-content">
-                                    <i class="fas fa-address-book fa-lg button-icon"></i>
-                                    Save to contacts
-                                </div>
-                                <div class="progress"></div>
-                            </button>
-                            <button class="alternative-send-contact-link" onclick="Blinq.handleSaveViaSMSOrEmailClick()">
-                                <span>Receive card via SMS or Email</span>
-                                <i class="fas fa-arrow-right"></i>
-                            </button>
-                        </div>
+                    
                     </div>
                 </div>
             </div>
@@ -343,7 +297,7 @@
                                     <i class="fal fa-mobile"></i>
                                     Save contact to phone
                     
-                               
+                                    <flt-glass-pane style="position: absolute; inset: 0px; cursor: default;">
         
             <div id="select-country-modal" class="modal bottom-sheet fit-to-card">
                 <div class="modal-content">
