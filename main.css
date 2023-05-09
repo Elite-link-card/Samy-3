@@ -1308,7 +1308,7 @@ fieldset {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    filter: drop-shadow(0px 2.76923px 8.30769px rgba(22, 29, 37, 0.1));
+    filter: drop-shadow(0px 2.76923px 8.30769px rgba(22, 29, 37, 0));
     width: 72px;
     height: 72px;
     border-radius: 50%
@@ -2062,7 +2062,7 @@ fieldset {
     border-radius: 12px;
     background: #ffffff;
     width: 100%;
-    box-shadow: hsl(0, 0%, 100%) 0px 0px 0px 1px,rgba(255, 255, 255, 0.995) 0px 3px 6px,rgba(243, 243, 243, 0.918) 0px 9px 24px
+    box-shadow: hsl(0, 0%, 0%) 0px 0px 0px 1px,rgba(0, 0, 0, 0.995) 0px 3px 6px,rgba(243, 243, 243, 0.918) 0px 9px 24px
 }
 
 @media screen and (max-width: 440px) {
@@ -2345,7 +2345,7 @@ fieldset {
 
 .right-picture::before {
     content: "";
-    background-color: #fff;
+    background-color: #020202;
     width: calc(100% + 2 * 3px);
     height: calc(100% + 2 * 3px);
     position: absolute;
@@ -2659,7 +2659,7 @@ fieldset {
     background: rgb(var(--card-color));
     color: var(--contrasting-color);
     border: unset;
-    box-shadow: 0 1px 5px 0 rgba(82,93,102,.25),0 2px 8px 0 rgba(82,93,102,.15);
+    box-shadow: 0 1px 5px 0 rgba(255, 255, 255, 0),0 2px 8px 0 rgba(255, 255, 255, 0);
     display: flex;
     justify-content: center;
     align-items: center
