@@ -2506,6 +2506,10 @@ fieldset {
 #facebook-icon{
     background: #0099ff;
 }
+#save-icon{
+    background: #ffffff;
+}
+
 
 .detail-list .detail-icon-circle:hover {
     background: rgba(var(--card-color), 0.82)
