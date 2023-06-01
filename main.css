@@ -2600,9 +2600,13 @@ fieldset {
 }
 
 .fa-facebook,
-.fa-link,
-.fa-phone {
+.fa-link {
   left: 16px;
+}
+
+.fa-phone {
+  left: 14px;
+  top: 16px;
 }
 
 .fa-instagram,
