@@ -2448,14 +2448,14 @@ fieldset {
 .right-picture {
   border-radius: 5px;
   position: absolute;
-  background: #ffffff00;
+  background: #6d141400;
   transform-origin: center;
   will-change: transform;
   z-index: 2;
   right: 5%;
   width: 35.5555555556%;
   padding-top: 20%;
-  transform: translateX(150px) translateY(375px);
+  transform: translateX(100px) translateY(450px);
 }
 
 
@@ -2473,9 +2473,9 @@ fieldset {
 
 .right-picture::before {
   content: "";
-  background-color: #ffffff00;
-  width: calc(100% + 2 * 3px);
-  height: calc(100% + 2 * 3px);
+  background-color: #47d84200;
+  width: 100%;
+  height: 100%; 
   position: absolute;
   left: -3px;
   bottom: -3px;
@@ -2483,8 +2483,8 @@ fieldset {
 }
 
 .right-picture[data-image-type="profile"] {
-  width:70%;
-   padding-top: 70%;
+  width: 40%;
+   padding-top: 40%;
    border-radius: 10%;
  }
 .user-details {
