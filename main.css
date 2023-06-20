@@ -2447,29 +2447,24 @@ fieldset {
 
 .right-picture {
   border-radius: 5px;
-  transition: box-shadow 0.2s, opacity 0.2s;
   position: absolute;
-  background: #fff;
+  background: #ffffff00;
   transform-origin: center;
   will-change: transform;
   z-index: 2;
   right: 5%;
   width: 35.5555555556%;
   padding-top: 20%;
+  transform: translateX(150px) translateY(375px);
 }
 
-.right-picture:hover {
-  transition: transform 0.2s;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1);
-  transform: scale(1.02);
-}
+
 
 .right-picture .right-picture-img {
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 5px;
-  box-shadow: 0 2px 4px 0 rgba(22, 29, 37, 0.1);
   top: 0;
   left: 0;
   object-fit: cover;
@@ -2478,7 +2473,7 @@ fieldset {
 
 .right-picture::before {
   content: "";
-  background-color: #020202;
+  background-color: #ffffff00;
   width: calc(100% + 2 * 3px);
   height: calc(100% + 2 * 3px);
   position: absolute;
@@ -2487,6 +2482,11 @@ fieldset {
   border-radius: 7px;
 }
 
+.right-picture[data-image-type="profile"] {
+  width:70%;
+   padding-top: 70%;
+   border-radius: 10%;
+ }
 .user-details {
   margin: 1.5rem;
   overflow-wrap: break-word;
