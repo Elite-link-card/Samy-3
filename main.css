@@ -4120,6 +4120,6 @@ fieldset {
 .logo{color: #000000;
 font-size: 1.75rem;
 font-weight: bold;
-transform: translateX(325px)
-translateY(475px);
+transform: translateX(300px)
+translateY(450px);
 width: 50px;}
