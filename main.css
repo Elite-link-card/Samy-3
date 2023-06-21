@@ -2389,7 +2389,7 @@ fieldset {
   will-change: transform;
   z-index: 2;
   left: 5%;
-  transform: translateX(70px) translateY(-250px);
+  transform: translateX(60px) translateY(-250px);
 }
 
 .left-picture[data-image-type="profile"] {
