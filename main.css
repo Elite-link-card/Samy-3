@@ -2461,18 +2461,18 @@ to {top: -20px;}
 .user-details .user-identity {
   margin-top: -75px;
   margin-bottom: 0.5rem;
-  color: #1da42f;
+  color: #ffffff;
  width: 100%;
  transform: translateX(9px)
  translateY(-5px);
 }
 
 .user-details .user-name {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.3;
   display: inline;
-  color: #1da42f;
+  color: #ffffff;
   ;
   
 }
@@ -2488,7 +2488,7 @@ to {top: -20px;}
 
 
 .user-details .bio-name {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
   font-style: italic;
@@ -2688,7 +2688,7 @@ to {top: 0px;}
   line-height: 1.4;
   display: flex;
   align-items: baseline;
-  color: #1da42f;
+  color: #ffffff;
   font-weight: 700;
   justify-content: center;
 
@@ -2802,10 +2802,21 @@ to {top: 0px;} }
   }
 }
 
+.links-and-notes
+{
 
+  background-color: #a3a1a150;
+  border-radius: 15%;
+max-width: 95%;
+margin: 15px;
+
+justify-content: center;
+
+
+}
 
 .logoo{
-  color: #1da42f;
+  color: #ffffff;
     min-height: 54px;
     display: flex;
     align-items: center;
