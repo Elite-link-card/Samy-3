@@ -1035,7 +1035,7 @@ html {
   position: relative;
   border-radius: 12px;
   background: #ffffff00;
-background-image: url(Untitled\ design.png);
+background-image: url(Untitled\ design\ \(2\).png);
 }
 @keyframes  url(Untitled\ design\ \(1\).png){
   max-width: 100%;
@@ -2682,7 +2682,7 @@ to {top: 0px;}
 }
 
 .detail-list .detail-data-value {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 100px;
   width: 100%;
   line-height: 1.4;
@@ -2821,19 +2821,20 @@ justify-content: center;
     display: flex;
     position: sticky;
     align-items: start;
-    margin: 0;
-    width: 100%;
-    gap: 1rem;
+    margin: 0px   00px;
+    width: 79.5%;
+    gap: 8rem;
     top: 0;
-    z-index: 2;
-
+    bottom: 0;
+    z-index: 3;
+    margin-top: -75px;
     box-sizing: border-box;
     text-decoration: none;
     font-size: 1.5rem;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.933), rgba(0, 0, 0, 0) 100%);
     padding: 1.5rem 2rem calc(1.75rem + var(--bottom-safety-height, 0rem));
     transform: translateY(0px) translateX(0px);
-    animation-name:example;
+    animation-name: example2 ;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
    }
@@ -2841,3 +2842,158 @@ justify-content: center;
   from {top: 200px;}
   to {top: 75px;}
   }
+  .logoo1{
+    color: #ffffff;
+    display: flex;
+    position: sticky;
+    align-items: end;  
+    margin: 0;
+    width: 21%;
+    max-height: px;
+    gap: 1rem;
+    top: 0px; 
+    z-index: 3;
+    justify-content: end;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.933), rgba(0, 0, 0, 0) 100%);
+    transform: translateY(0px) translateX(378%);
+    padding: 1.5rem 1.25rem;
+    animation-name:example2;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    }
+
+    @keyframes example2 {
+    from {top: 200px;}
+    to {top:0px;}
+    }
+
+    .detail-list .doweload10 {
+      height: 60px;
+      width: 60px;
+      border-radius: 60%;
+      background: var(--danger-800);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 0 0 auto;
+      color: #ffffff;
+      font-size: 1.75rem;
+      position: relative;
+    }
+   
+ button {
+  color: rgb(255, 255, 255);
+  padding: 12px 8px;
+  margin: 20px 0;
+  position: sticky;
+  font-size: 1.5rem;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0) 150%);
+  width: 180px;
+  height: 60px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+#share-contact-button {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.share-contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a3a1a150;
+  pointer-events: all;
+  transition: all 300ms ease-out;
+}
+
+.share-contact-container.inactive {
+  transform: scale(0);
+  pointer-events: none;
+}
+
+.share-contact-container h2 {
+  margin: 0 0 20px 0;
+  padding: 10px 30px;
+  color: #ffffff;
+  border-bottom: white solid;
+}
+
+.share-contact-container input {
+  border: none;
+  border-bottom: #000 solid;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: bold;
+  border-radius: 1%;
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+  width: 300px;
+}
+
+.share-contact-form {
+  position: fixed;
+  display: flex;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0) 200%);
+
+  height: 400px;
+  bottom: 0%;
+  width: min(440px, 100%);
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 18px #0000005e;
+  z-index: 10;
+}
+
+#share-button {
+  background-color: #a3a1a150;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+#form-close-icon {
+  position: sticky;
+  display: flex;
+  align-items: start;
+  color: fff;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  /* box-shadow: 0 0 10px black; */
+  transform: translateX(150px);
+  cursor: pointer;
+  z-index: 10;
+}
+
+#share-contact-form-overlay {
+  position: sticky;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background-color: rgba(255, 0, 0, 0.438);
+  pointer-events: all;
+}
+
+#share-contact-form-overlay.inactive {
+  display: none;
+}
